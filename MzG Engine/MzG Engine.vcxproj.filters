@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\3d File Loader">
+      <UniqueIdentifier>{1d129eb6-524a-4897-923d-884292bf8469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{be850457-c151-413f-af76-bd3ff59b07a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{dcf639c7-f0ab-4a11-ba19-ef8ba88cafa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Media And Fx">
+      <UniqueIdentifier>{ec4c3bd3-9c12-496b-b8b4-d253bd54dcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Core">
+      <UniqueIdentifier>{9455c187-8a4e-456a-a554-c5ebe554e8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3d File Loader">
+      <UniqueIdentifier>{f7f9caea-63b6-46d6-bee3-c6c81185a48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{b59c3efe-0153-4fdc-b174-1e55c198bbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{3efc1397-08df-458d-91d6-8f52116a9500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media And Fx">
+      <UniqueIdentifier>{c054ac6e-6726-4794-b228-ea7ffa7981ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Core">
+      <UniqueIdentifier>{7f838181-5d6b-46aa-b533-d418741a54e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{c98bb144-b597-4e3e-89d9-d9c686e4fa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{25d53afa-4868-41b5-9433-002d91c2448a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="D3DDevice.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InitWindow.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandle.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeDimentionalSound.cpp">
+      <Filter>Source Files\Media And Fx</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMesh.cpp">
+      <Filter>Source Files\3d File Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Font2d.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>Source Files\3d File Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineFbxManager.cpp">
+      <Filter>Source Files\3d File Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticXfileLoader.cpp">
+      <Filter>Source Files\3d File Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxBasic.cpp">
+      <Filter>Source Files\3d File Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="temp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoundingVolume.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandle.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeDimentionalSound.h">
+      <Filter>Header Files\Media And Fx</Filter>
+    </ClInclude>
+    <ClInclude Include="InitWindow.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DDevice.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Engine Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMesh.h">
+      <Filter>Header Files\3d File Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Font2d.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoader.h">
+      <Filter>Header Files\3d File Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineFbxManager.h">
+      <Filter>Header Files\3d File Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticXfileLoader.h">
+      <Filter>Header Files\3d File Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxBasic.h">
+      <Filter>Header Files\3d File Loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
