@@ -1,6 +1,6 @@
 # MZGEngine
 
-MZG Engine is a  render engine for rendering 3d models. 
+MZG Engine is a  render framework in c++ for rendering 3d models and environments. 
 
 Requerments:
 Directx SDK june 2010
